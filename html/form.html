@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to CodeHelp</h1>
+    <h2>Contact Us Form</h2>
+    Name <input name="name" type="text" placeholder="Enter your Name" /><br />
+    Email <input name="name" type="text" placeholder="Enter your Email" /><br />
+    Contact Number
+    <input name="name" type="number" placeholder="Enter Contact Number" /><br />
+    <!-- Gender <input name="name" type="text" placeholder="Gender" list="Male"><br> -->
+    Gender:<select name="gender">
+      <option value="">Select</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option></select
+    ><br />
+    Date of Birth
+    <input name="name" type="date" placeholder="Enter your Name" /><br />
+    Rating <input type="radio" name="rating" />1
+    <input type="radio" name="rating" />2 <input type="radio" name="rating" />3
+    <input type="radio" name="rating" />4 <input type="radio" name="rating" />5
+    <br />
+    Enter Your Message <br />
+    <textarea
+      name="Enter Your Message"
+      id="Enter Your Message"
+      cols="30"
+      rows="10"
+      placeholder="Enter your Message"
+    ></textarea
+    ><br />
+    <button>Send</button>
+    <button>Reset</button><br /><br />
+    <a href="http://www.youtube.com" target="_blank"
+      ><img src="uff.jpg" alt="youtube" height="30" width="30"
+    /></a>
+    <a href="http://www.instagram.com" target="_blank"
+      ><img src="uff.jpg" alt="instagram" height="30" width="30"
+    /></a>
+    <a href="http://www.telegram.org" target="_blank"
+      ><img src="uff.jpg" alt="telegram" height="30" width="30"
+    /></a>
+    <br />
+    <a href="mailto:durgeshanand111@gmail.com" target="_blank">Mail Me</a>
+    <br />
+    <a href="tel:9430306264" target="_blank">Call Me</a>
+    <button id="click">Click Me</button>
+    <div>Division 1 this is a division for testing.</div>
+  </body>
+  <script>
+    console.log("Hello world");
+    alert("stfu");
+     console.error("ur mom");
+    var num1 = 69;
+    var num2 = 96;
+    console.log(num1 + num2);
+    var str = "fdf grgfdfvr rg";
+    var arr=[1,2,3,4,5,6,7];
+    arr.forEach(function (element) {
+      console.log(element);
+    });
+    let myDate = new Date();
+    // console.log(myDate.getTime());
+    console.log(myDate.getDay());
+    console.log(myDate.getHours());
+    document.getElementById("click").style.border = "2px solid green";
+    document.getElementsByClassName("container");
+    tn = document.getElementsByTagName("button");
+    console.log(tn);
+    tn[0].replaceChild(createdElement2, createdElement1);
+    sel = document.querySelector(".container");
+    console.log(sel);
+    sel = document.querySelectorAll(".container");
+    console.log(sel);
+    function clicked(){
+      console.log('the button was clicked');
+    }
+    window.onload = function(){
+      console.log('doc loaded');
+    }
+    firstContainer.addEventListener('click', function(){
+      console.log('click hua')
+    })
+  </script>
+</html>
